@@ -1,0 +1,27 @@
+:root {
+  --white: #ffffff;
+  --zinc-900: #18181b;
+  --font-body: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  background-color: var(--zinc-900);
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.6rem;
+  font-family: var(--font-body);
+  color: var(--white);
+  width: 100%;
+  scroll-behavior: smooth;
+}
